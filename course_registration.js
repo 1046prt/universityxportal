@@ -200,7 +200,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         if (subjectInput.selectedOptions.length === 0) {
-          showValidationError(subjectInput, "Please select at least one subject");
+          showValidationError(
+            subjectInput,
+            "Please select at least one subject"
+          );
           return;
         }
 
@@ -289,20 +292,25 @@ document.addEventListener("DOMContentLoaded", function () {
           } else if (sem === "3" || sem === "4") {
             subjectInput.innerHTML +=
               '<option value="dbms">Database Management Systems</option>';
-            subjectInput.innerHTML += '<option value="os">Operating Systems</option>';
-            subjectInput.innerHTML += '<option value="cn">Computer Networks</option>';
+            subjectInput.innerHTML +=
+              '<option value="os">Operating Systems</option>';
+            subjectInput.innerHTML +=
+              '<option value="cn">Computer Networks</option>';
             subjectInput.innerHTML +=
               '<option value="daa">Design & Analysis of Algorithms</option>';
-            subjectInput.innerHTML += '<option value="web">Web Technologies</option>';
+            subjectInput.innerHTML +=
+              '<option value="web">Web Technologies</option>';
           } else if (sem === "5" || sem === "6") {
             subjectInput.innerHTML +=
               '<option value="se">Software Engineering</option>';
             subjectInput.innerHTML +=
               '<option value="ai">Artificial Intelligence</option>';
-            subjectInput.innerHTML += '<option value="ml">Machine Learning</option>';
+            subjectInput.innerHTML +=
+              '<option value="ml">Machine Learning</option>';
             subjectInput.innerHTML +=
               '<option value="cloud">Cloud Computing</option>';
-            subjectInput.innerHTML += '<option value="cyber">Cyber Security</option>';
+            subjectInput.innerHTML +=
+              '<option value="cyber">Cyber Security</option>';
           } else if (sem === "7" || sem === "8") {
             subjectInput.innerHTML +=
               '<option value="ds">Distributed Systems</option>';
@@ -341,9 +349,12 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             subjectInput.innerHTML +=
               '<option value="advanced">Advanced Electrical Course</option>';
-            subjectInput.innerHTML += '<option value="elective1">Elective 1</option>';
-            subjectInput.innerHTML += '<option value="elective2">Elective 2</option>';
-            subjectInput.innerHTML += '<option value="elective3">Elective 3</option>';
+            subjectInput.innerHTML +=
+              '<option value="elective1">Elective 1</option>';
+            subjectInput.innerHTML +=
+              '<option value="elective2">Elective 2</option>';
+            subjectInput.innerHTML +=
+              '<option value="elective3">Elective 3</option>';
           }
         } else if (course === "civil" || course === "mechanical") {
           if (sem === "1" || sem === "2") {
@@ -360,9 +371,12 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             subjectInput.innerHTML +=
               '<option value="advanced">Advanced Course</option>';
-            subjectInput.innerHTML += '<option value="elective1">Elective 1</option>';
-            subjectInput.innerHTML += '<option value="elective2">Elective 2</option>';
-            subjectInput.innerHTML += '<option value="elective3">Elective 3</option>';
+            subjectInput.innerHTML +=
+              '<option value="elective1">Elective 1</option>';
+            subjectInput.innerHTML +=
+              '<option value="elective2">Elective 2</option>';
+            subjectInput.innerHTML +=
+              '<option value="elective3">Elective 3</option>';
           }
         } else {
           // Default subjects if no course is selected

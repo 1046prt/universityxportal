@@ -181,7 +181,7 @@ main {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: var(--dark);
+  color: var(--accent);
   font-weight: 700;
 }
 
@@ -233,7 +233,7 @@ main {
 /* Quick Actions Section */
 .quick-actions {
   padding: 3rem 0;
-  background-color: #f8f9fa;
+  background-color: transparent;
 }
 
 .actions-grid {
@@ -1498,8 +1498,7 @@ footer {
 
 .btn-outline {
   background-color: var(--primary);
-  border: 1px solid var(--primary);
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .btn-outline:hover {

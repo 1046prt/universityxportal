@@ -5,6 +5,7 @@ A comprehensive web-based course registration system for universities with moder
 ## Features
 
 ### 🎯 Core Functionality
+
 - **Multi-step Course Registration Form** - Guided registration process with progress tracking
 - **Student Authentication** - Login and registration system
 - **Course Management** - Browse and select courses by department
@@ -13,6 +14,7 @@ A comprehensive web-based course registration system for universities with moder
 - **Academic Calendar** - Important dates and deadlines
 
 ### 🎨 Design Features
+
 - **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
 - **Dark Mode Toggle** - Switch between light and dark themes
 - **Modern UI/UX** - Clean, professional design with smooth animations
@@ -20,6 +22,7 @@ A comprehensive web-based course registration system for universities with moder
 - **Loading States** - Visual feedback for all user interactions
 
 ### 📱 Pages Included
+
 - **Homepage** (`index.html`) - Landing page with features and quick actions
 - **Course Registration** (`course_registration.html`) - Main registration form
 - **Login** (`login.html`) - Student authentication
@@ -38,7 +41,7 @@ A comprehensive web-based course registration system for universities with moder
 
 ## File Structure
 
-```
+```bash
 Course_Registration/
 ├── index.html                 # Homepage
 ├── course_registration.html   # Main registration form
@@ -62,17 +65,20 @@ Course_Registration/
 ## Key Features Explained
 
 ### Course Registration Form
+
 - **4-Step Process**: Personal Info → Course Selection → Academic Year → Subject Selection
 - **Progress Tracking**: Visual progress bar with step indicators
 - **Form Validation**: Real-time validation with error messages
 - **Dynamic Content**: Subjects load based on selected course and semester
 
 ### Responsive Navigation
+
 - **Desktop**: Full horizontal navigation with dropdown menus
 - **Mobile**: Hamburger menu with slide-out navigation
 - **Theme Toggle**: Dark/light mode switch
 
 ### Form Validation
+
 - **Required Fields**: All mandatory fields are validated
 - **Email Format**: Proper email validation
 - **Password Strength**: Password requirements checking
@@ -84,8 +90,6 @@ Course_Registration/
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-
-
 
 ## Future Enhancements
 
@@ -113,8 +117,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Support
 
 For support or questions, please contact:
-- Email: support@university.edu
-- Phone: +1 (123) 456-7890
+
+- Phone: +91 9508015377
 
 ---
 

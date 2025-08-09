@@ -49,6 +49,7 @@
 .overview-item {
   background: var(--bg-primary);
   padding: 1.5rem;
+  margin: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -92,6 +93,7 @@
 .highlight-item {
   background: var(--bg-primary);
   padding: 2rem;
+  margin: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -143,6 +145,7 @@
 .semester {
   background: var(--bg-primary);
   padding: 1.5rem;
+  margin: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -198,6 +201,7 @@
 .career-item {
   background: var(--bg-primary);
   padding: 1.5rem;
+  margin: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -245,6 +249,7 @@
 .stat-item {
   background: var(--bg-primary);
   padding: 1.5rem;
+  margin: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   text-align: center;

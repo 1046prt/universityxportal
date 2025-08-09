@@ -1,6 +1,6 @@
 # University Registration Portal
 
-A comprehensive web-based course registration system for universities with modern UI/UX design and full functionality.
+A web-based course registration system for universities with modern UI/UX design and full functionality.
 
 ## Features
 
@@ -43,11 +43,14 @@ A comprehensive web-based course registration system for universities with moder
 
 ```bash
 Course_Registration/
-├── index.html                 # Homepage
-├── course_registration.html   # Main registration form
+├── index.html                # Homepage
+├── 404.html                  # Page for broken URL
+├── course_registration.html  # Main registration form
 ├── login.html                # Login page
 ├── register.html             # Registration page
 ├── contact.html              # Contact page
+assets/
+├── styles/                   # CSS File for whole website
 ├── fee-structure.html        # Fee structure page
 ├── academic-calendar.html    # Academic calendar
 ├── course_registration.css   # Main stylesheet
@@ -122,4 +125,4 @@ For support or questions, please contact:
 
 ---
 
-**Note**: This is a frontend demonstration project. For production use, backend integration and proper security measures should be implemented.
+**Note**: This is a frontend demonstration project. For production use, backend integration and proper security measures should be implemented in upcoming time.

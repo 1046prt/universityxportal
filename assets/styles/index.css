@@ -46,14 +46,9 @@ body {
 
 /* Header Styles - Enhanced */
 header {
-  background: linear-gradient(
-    135deg,
-    var(--primary) 0%,
-    var(--accent) 50%,
-    var(--primary-dark) 100%
-  );
+  background: transparent !important;
   color: white;
-  padding: 1rem 0;
+  padding: 12rem 0;
   box-shadow: 0 8px 32px rgba(79, 70, 229, 0.2);
   position: relative;
   overflow: hidden;
@@ -62,14 +57,9 @@ header {
 
 /* Hero Section for Homepage */
 .hero-section {
-  background: linear-gradient(
-    135deg,
-    var(--primary) 0%,
-    var(--accent) 50%,
-    var(--primary-dark) 100%
-  );
-  color: white;
-  padding: 4rem 0;
+  background: transparent !important;
+  color: var(--primary) !important;
+  padding: 12vw 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -158,6 +148,7 @@ h1 {
   font-size: 2rem; /* Smaller font size */
   margin-bottom: 0.3rem;
   font-weight: 700;
+  color: var(--primary);
 }
 
 .header-tagline {
@@ -194,10 +185,10 @@ main {
 }
 
 .feature-card {
-  background: white;
+  color: light-dark(var(--light),var(--dark));
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 15px 10px rgba(84, 83, 83, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -223,7 +214,7 @@ main {
 .feature-card h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: var(--dark);
+  color: var(--accent);
 }
 
 .feature-card p {
@@ -245,10 +236,10 @@ main {
 }
 
 .action-card {
-  background: white;
-  padding: 2rem;
+  color: light-dark(var(--light),var(--dark));
+  padding: 2rem; 
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 15px rgba(56, 55, 55, 0.1);
   text-align: center;
   text-decoration: none;
   color: var(--dark);
@@ -259,7 +250,6 @@ main {
 .action-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  color: var(--dark);
   text-decoration: none;
 }
 
@@ -273,6 +263,7 @@ main {
 .action-card h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
+  color: var(--accent);
 }
 
 .action-card p {
@@ -1375,7 +1366,7 @@ footer {
   align-items: center;
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--primary) !important;
   text-decoration: none;
 }
 

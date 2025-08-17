@@ -384,30 +384,6 @@
     </div>
 
     <script src="/assets/scripts/index.js"></script>
-    <script>
-      // Contact form handling
-      document
-        .getElementById("contact-form")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-
-          // Show loading
-          document.getElementById("loading").style.display = "flex";
-
-          // Simulate form submission
-          setTimeout(() => {
-            document.getElementById("loading").style.display = "none";
-            document.getElementById("notification").classList.add("show");
-
-            // Reset form
-            this.reset();
-
-            // Hide notification after 3 seconds
-            setTimeout(() => {
-              document.getElementById("notification").classList.remove("show");
-            }, 3000);
-          }, 1500);
-        });
-    </script>
+    <script src="/assets/scripts/contact.js"></script>
   </body>
 </html>

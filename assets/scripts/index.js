@@ -1,4 +1,4 @@
-window.alert("This project is still under development! Stay tuned")
+window.alert("This project is still under development! Stay tuned");
 document.addEventListener("DOMContentLoaded", function () {
   const steps = document.querySelectorAll(".form-slide");
   const progressSteps = document.querySelectorAll(".progress-step");

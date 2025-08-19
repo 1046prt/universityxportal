@@ -89,10 +89,10 @@ assets/
 
 ## Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- Chrome
+- Firefox
+- Safari
+- Edge
 
 ## Future Enhancements
 
